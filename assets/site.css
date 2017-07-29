@@ -32,8 +32,8 @@ body {
     background-size: contain;
 }
 a:link, a:visited, a:hover, a:active {
-    color: #ccf;
-    text-decoration-line: none;
+    color:rgba(150, 128, 128, 1);
+    text-decoration: none;
 }
 .weibo {
     background-image: url('weibo_icon/weibo_gary.gif');
@@ -49,4 +49,8 @@ a:link, a:visited, a:hover, a:active {
 }
 .github:hover {
     background-image: url('github_icon/GitHub-Mark-Light-64px.png');
+}
+#count-down {
+    color: #555;
+    font-size: 0.7em;
 }
